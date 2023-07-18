@@ -46,7 +46,7 @@ nav li a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 50px 80px;
+    margin: 50px 200px;
     padding: 20px;
 }
 .logo img{
@@ -59,10 +59,11 @@ nav li a{
 .popular{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin:4em 10em;
+    margin:4em 8em;
     margin-bottom: 1em;
     row-gap: 30px;  
     column-gap: 30px;
+    
      
 }
 .popular div{
@@ -91,6 +92,23 @@ nav li a{
 }
 .imge{
 }
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+footer p{
+    color: darkslateblue;
+}
+footer h2{
+    color: white;
+    font-size: 30px;
+}
+.log img{
+    margin-right: 1.5em;
+
+}
+
 
 
 
@@ -119,11 +137,17 @@ nav li a{
      }
      .logo{
         gap: 30px;
+        margin-left: 2em;
+        margin-right: 2em;
      }
      .popular{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin: 0;
+        padding: 1em;
+     }
+     .popular div{
+        padding: 2em;
      }
      .feature{
         padding: 0;
@@ -136,7 +160,9 @@ nav li a{
      .feature img{
         padding: 1em;
      }
-     
+     .log img{
+        margin-right: 0.5em;
+     }
      
     
      
@@ -160,11 +186,18 @@ nav li a{
     }
     .logo{
         gap: 20px;
+        margin-left:5em ;
+        margin-right:5em ;
+      
     }
     .popular{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin: 0;
+        padding: 2em;
+     }
+     .popular div{
+        padding: 2em;
      }
      .feature{
         flex-direction: column-reverse;
